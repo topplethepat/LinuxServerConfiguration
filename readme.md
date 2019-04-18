@@ -214,7 +214,7 @@ To install git at the terminal:
 
 ## Clone ServiceApp project
 + While in virutal environment, Go to the path `/var/www`
-+ `git clone https://github.com/topplethepat/ServicesApp.git ServicesApp`
++ `git clone https://github.com/topplethepat/servicesApp.git servicesApp`
 
 ## Configure Item ServiceApp project for WSGI
 + To configure Apache to handle requests using the WSGI module, first install mod_wsgi:
@@ -284,6 +284,8 @@ The database contains services children could provide for neighbors.
 + # How To Deploy a Flask Application on an Ubuntu VPS(https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps) 
 + # stackoverflow.com
 + # http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
+
+Please note: per this post, I understand that since xip.io is blocked by google, the google auth part of my app will not be required: https://knowledge.udacity.com/questions/28323
 
 
 
